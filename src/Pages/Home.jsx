@@ -35,7 +35,7 @@ import SmartPhonesProjectmobile from '/MyLandingPageProjects/MyPortfolio/src/ass
 import LaptopsProject from '/MyLandingPageProjects/MyPortfolio/src/assets/img/LaptopsProject.png'
 import LaptopsProjectmobile from '/MyLandingPageProjects/MyPortfolio/src/assets/img/LaptopsProjectmobile.png'
 import Email from '/MyLandingPageProjects/MyPortfolio/src/assets/email.json'
-import CV from '/MyLandingPageProjects/MyPortfolio/src/assets/wepik-simple-high-school-student-joan-resume-20240908003759I8x5.pdf'
+import CV from '/MyLandingPageProjects/MyPortfolio/src/assets/wepik-simple-high-school-student-joan-resume-202409081617399F3P.pdf'
 function Home() {
 
   return (
