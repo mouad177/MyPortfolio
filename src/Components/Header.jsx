@@ -46,6 +46,7 @@ function Header() {
   return (
 <>
 <div className="w-full fixed h-[80px] z-50">
+
 <nav   className='bg-slate-200 z-50 w-[90%]  p-2 md:w-full rounded-2xl shadow-md ' dir='ltr'>
 <div className="flex justify-center items-center gap-3 ">
 <a href="#Home">
@@ -103,9 +104,8 @@ function Header() {
 
 </div>
 </nav>
-
-
 </div>
+
 
 
 </>

@@ -168,10 +168,10 @@ function Home() {
 </motion.div>
 </div>
 <div className='relative'>
-<img className='z-20 w-[530px] lg:w-[600px] translate-x-10 md:translate-x-0' src={Mouad2} width= {530} />
-
+<img className='z-20  translate-x-10 md:translate-x-0' src={Mouad2} width= {530} />
 
 <motion.div initial={{opacity:0,rotate:-60}} viewport={{amount:0.5,once:true}} transition={{duration:1,delay:0.1}} whileInView={{opacity:1,rotate:-80}}  id='bg2' className='-z-20 w-[700px] h-[600px] bg-orange-300 absolute left-[-50%] md:left-[40%] lg:left-[20%] top-[-12%] md:top-[-10%] lg:top-[25%] rotate-[-80deg]'></motion.div>
+
 </div>
 
 </div>
