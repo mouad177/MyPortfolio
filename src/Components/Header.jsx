@@ -47,7 +47,7 @@ function Header() {
 <>
 
 <nav   className='bg-slate-200 z-50 p-2  rounded-2xl shadow-md fixed w-full ' dir='ltr'>
-<div className="flex justify-between items-center  w-[90%] mx-auto">
+<div className="flex justify-center items-center gap-3 mx-auto">
 <a href="#Home">
 <motion.div id="logo" initial={{opacity:0,x:-100}} animate={{opacity:1,x:0}} transition={{duration:1}}  className='flex gap-2 items-center'>
 <div className='flex items-center gap-3'>

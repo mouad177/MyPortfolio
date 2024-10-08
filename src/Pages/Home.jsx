@@ -34,6 +34,10 @@ import SmartPhonesProject from '/MyLandingPageProjects/MyPortfolio/src/assets/im
 import SmartPhonesProjectmobile from '/MyLandingPageProjects/MyPortfolio/src/assets/img/SmartPhonesProjectmobile.png'
 import LaptopsProject from '/MyLandingPageProjects/MyPortfolio/src/assets/img/LaptopsProject.png'
 import LaptopsProjectmobile from '/MyLandingPageProjects/MyPortfolio/src/assets/img/LaptopsProjectmobile.png'
+
+import TourismProject from '/MyLandingPageProjects/MyPortfolio/src/assets/img/TourismProject.png'
+import TourismProjectmobile from '/MyLandingPageProjects/MyPortfolio/src/assets/img/TourismProjectmobile.png'
+
 import Email from '/MyLandingPageProjects/MyPortfolio/src/assets/email.json'
 import CV from '/MyLandingPageProjects/MyPortfolio/src/assets/wepik-simple-high-school-student-joan-resume-202409081617399F3P.pdf'
 function Home() {
@@ -45,7 +49,7 @@ function Home() {
 
 <section id="Home">
   <div className=" flex flex-col md:flex-row-reverse items-center justify-between">
-<img  className='md:translate-x-10 lg:translate-x-10 mt-4 z-20 w-[360px] md:w-[500px]' src={Mouad} width={500} />
+<img  className='translate-x-10 md:translate-x-10 lg:translate-x-10 mt-4 z-20 w-[360px] md:w-[500px] lg:w-[540px]' src={Mouad} width={500} />
 
 <div className="md:-translate-y-20 md:translate-x-28 md:space-y-10">
   <div className='flex flex-row space-x-3 relative mt-4 md:mt-0 left-[10%] md:left-[44%] lg:left-[25%] '>
@@ -164,7 +168,7 @@ function Home() {
 </motion.div>
 </div>
 <div className='relative'>
-<img className='z-20' src={Mouad2} width= {530} />
+<img className='z-20 w-[530px] lg:w-[600px] translate-x-10 md:translate-x-0' src={Mouad2} width= {530} />
 
 
 <motion.div initial={{opacity:0,rotate:-60}} viewport={{amount:0.5,once:true}} transition={{duration:1,delay:0.1}} whileInView={{opacity:1,rotate:-80}}  id='bg2' className='-z-20 w-[700px] h-[600px] bg-orange-300 absolute left-[-50%] md:left-[40%] lg:left-[20%] top-[-12%] md:top-[-10%] lg:top-[25%] rotate-[-80deg]'></motion.div>
@@ -407,6 +411,8 @@ function Home() {
 
 </div>
 </section>
+
+
 <section id="Services">
 <motion.div initial={{opacity:0,x:-40}} whileInView={{opacity:1,x:0}} viewport={{once:false,amount:0.5}} transition={{duration:1}} id="titleServices" className='flex items-center justify-center space-x-3'>
 
@@ -578,6 +584,23 @@ A landing page design for a smartphone store. The following technologies were us
 </p>
 </div>
   </motion.div>
+  <motion.div initial={{opacity:0,x:-20,rotate:6}} whileHover={{scale:1.03}} whileInView={{opacity:1,x:0,rotate:0}} transition={{duration:1,delay:0.2}} viewport={{amount:0.5,once:false}}  className='flex flex-col mx-auto  items-center gap-4 bg-gradient-to-tr from-blue-500 to-blue-800 w-fit p-2 rounded-2xl m-2'>
+<a href='https://mouad177.github.io/Tourism/' target='_blank' className='text-center'>
+<div id="box-image" className='flex items-center '>
+<img className='w-[260px] md:w-[300px]' src={TourismProject} width={300} alt="" />
+<img className='w-[70px] md:w-[100px]' src={TourismProjectmobile} width={100} alt="" />
+</div>
+<h3 className='text-white font-extrabold text-3xl'>Tourism Website </h3>
+</a>
+<div className='flex flex-col items-center space-x-4'>
+<a className='bg-cyan-300 rounded-xl p-2 text-black font-extrabold hover:bg-cyan-500' href='https://mouad177.github.io/LaptopsStore/dist/' target='_blank'>View Project</a>
+<p className='text-white leading-relaxed font-bold'>
+The tourism website project is based on the following technologies: HTML, CSS, and JavaScript with Tailwind CSS for the interface design. The website was built using React.js and React Router for navigation between pages, with interactive animations added using Framer Motion and Lottie to incorporate animations.
+
+  </p>
+</div>
+  </motion.div>
+
 
 </div>
 </section>
