@@ -45,9 +45,9 @@ function Header() {
 
   return (
 <>
-
-<nav   className='bg-slate-200 z-50 p-2  rounded-2xl shadow-md fixed w-full ' dir='ltr'>
-<div className="flex justify-center items-center gap-3 mx-auto">
+<div className="w-full fixed h-[80px] z-50">
+<nav   className='bg-slate-200 z-50 w-[90%]  p-2 md:w-full rounded-2xl shadow-md ' dir='ltr'>
+<div className="flex justify-center items-center gap-3 ">
 <a href="#Home">
 <motion.div id="logo" initial={{opacity:0,x:-100}} animate={{opacity:1,x:0}} transition={{duration:1}}  className='flex gap-2 items-center'>
 <div className='flex items-center gap-3'>
@@ -84,6 +84,11 @@ function Header() {
   </div>
 
   </div>
+
+
+
+
+
 <div className="lg:hidden z-50">
 <motion.ul  initial={{opacity:0,height:0}} animate={{opacity:active?1:0,height:active?'auto':0,padding:active?2:0}} transition={{duration:0.5}} id='mobile-menu'  className='bg-slate-200 rounded-2xl right-6 left-6 items-center flex flex-col gap-4 font-bold text-lg hidden p-2'>
         <motion.a transition={{duration:0.5,delay:0.2}} initial={{x:40,opacity:0}} animate={{x:active?0:40,opacity:active?1:0}} className='hover:bg-cyan-400 hover:text-white hover:rounded-2xl p-2 duration-500' href='#Home' >Home</motion.a>
@@ -98,6 +103,10 @@ function Header() {
 
 </div>
 </nav>
+
+
+</div>
+
 
 </>
   )

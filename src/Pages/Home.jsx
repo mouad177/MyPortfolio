@@ -49,7 +49,7 @@ function Home() {
 
 <section id="Home">
   <div className=" flex flex-col md:flex-row-reverse items-center justify-between">
-<img  className='translate-x-10 md:translate-x-10 lg:translate-x-10 mt-4 z-20 w-[360px] md:w-[500px] lg:w-[540px]' src={Mouad} width={500} />
+<img  className=' md:translate-x-10 lg:translate-x-10 mt-4 z-20 w-[360px] md:w-[500px] lg:w-[540px]' src={Mouad} width={500} />
 
 <div className="md:-translate-y-20 md:translate-x-28 md:space-y-10">
   <div className='flex flex-row space-x-3 relative mt-4 md:mt-0 left-[10%] md:left-[44%] lg:left-[25%] '>
@@ -593,7 +593,7 @@ A landing page design for a smartphone store. The following technologies were us
 <h3 className='text-white font-extrabold text-3xl'>Tourism Website </h3>
 </a>
 <div className='flex flex-col items-center space-x-4'>
-<a className='bg-cyan-300 rounded-xl p-2 text-black font-extrabold hover:bg-cyan-500' href='https://mouad177.github.io/LaptopsStore/dist/' target='_blank'>View Project</a>
+<a className='bg-cyan-300 rounded-xl p-2 text-black font-extrabold hover:bg-cyan-500' href='https://mouad177.github.io/Tourism/' target='_blank'>View Project</a>
 <p className='text-white leading-relaxed font-bold'>
 The tourism website project is based on the following technologies: HTML, CSS, and JavaScript with Tailwind CSS for the interface design. The website was built using React.js and React Router for navigation between pages, with interactive animations added using Framer Motion and Lottie to incorporate animations.
 
